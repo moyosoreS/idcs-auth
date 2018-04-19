@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Node JS - Integration with Identity Cloud Service</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <% if(!isAuthenticated) { %>
+        <a href="/auth/idcs">Log In with Oracle Identity Cloud Service</a>
+    <% }else{ %>
+        <p>Hello, <%= user.name %></p>
+        <a href="logout">Logout</a>
+    <% } %>
+</body>
+</html>

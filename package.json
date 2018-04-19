@@ -1,0 +1,16 @@
+{
+  "name": "passport-idcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Desmond",
+  "license": "ISC",
+  "dependencies": {
+    "oauth": "^0.9.15",
+    "passport": "^0.4.0",
+    "passport-oauth-oidcs": "^1.0.1"
+  }
+}
